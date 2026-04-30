@@ -31,8 +31,7 @@ Your extension's manifest.json will be output to .output/{target}/manifest.json 
 - this project uses vite.
 - this project uses pnpm package manager, not npm.
 - I should have a .prettierrc.json file in the root directory. please also follow rules on that.
-
-- entrypoints are in src/entrypoints directory
+- entrypoints are in entrypoints directory
 
 ## Storage
 
