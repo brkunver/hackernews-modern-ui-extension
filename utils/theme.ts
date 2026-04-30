@@ -8,6 +8,8 @@ export interface ThemeColors {
   headerBg: string
   subtext: string
   commentBg: string
+  domainText: string
+  commentLink: string
 }
 
 export const darkTheme: ThemeColors = {
@@ -20,6 +22,8 @@ export const darkTheme: ThemeColors = {
   headerBg: "#1a1a1a",
   subtext: "#9a9a9a",
   commentBg: "#181818",
+  domainText: "#6d6d6d",
+  commentLink: "#ffb86c",
 }
 
 export const lightTheme: ThemeColors = {
@@ -32,6 +36,8 @@ export const lightTheme: ThemeColors = {
   headerBg: "#ff6600",
   subtext: "#828282",
   commentBg: "#f6f6ef",
+  domainText: "#666666",
+  commentLink: "#ff6600",
 }
 
 export function injectThemeStyles(theme: ThemeColors) {
@@ -63,8 +69,25 @@ export function injectThemeStyles(theme: ThemeColors) {
       color: ${theme.link} !important;
     }
 
+    .sitebit, .sitebit a {
+      color: ${theme.domainText} !important;
+    }
+
     .subtext {
       color: ${theme.subtext} !important;
+    }
+
+    .subtext a {
+      color: ${theme.subtext} !important;
+    }
+
+    .subtext a.hnuser {
+      color: ${theme.text} !important;
+    }
+
+    .subtext > a:last-child {
+      color: ${theme.commentLink} !important;
+      font-weight: 500;
     }
 
     .commtext {
