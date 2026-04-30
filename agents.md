@@ -2,6 +2,7 @@
 - Goal : Enhance ui of Hacker News.
 
 - This project uses wxt framework for development. wxt is a extension development framework.
+- for hacker news selector info please read selectors.md file, it has important info about selectors and how to use them.
 - website to framework is : https://wxt.dev/
 - you can find docs on these websites :
 
@@ -24,6 +25,7 @@ Your extension's manifest.json will be output to .output/{target}/manifest.json 
 
 - this extension should work on https://news.ycombinator.com/
 - this project uses SolidJS for frontend.
+- always use aliases when importing,(@/ for root)
 - this extension aims manifest v3
 - this project uses tailwindcss v4 for styling.
 - this project uses typescript for development.
