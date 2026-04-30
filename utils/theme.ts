@@ -11,15 +11,15 @@ export interface ThemeColors {
 }
 
 export const darkTheme: ThemeColors = {
-  background: "#121212",
-  text: "#d4d4d4",
-  link: "#d4d4d4",
-  linkHover: "#7aa2f7",
-  border: "#2a2a2a",
+  background: "#0f0f0f",
+  text: "#e6e6e6",
+  link: "#e6e6e6",
+  linkHover: "#ffb86c",
+  border: "#2b2b2b",
   tableBg: "#121212",
-  headerBg: "#2a2a2a",
-  subtext: "#a0a0a0",
-  commentBg: "#1a1a1a",
+  headerBg: "#1a1a1a",
+  subtext: "#9a9a9a",
+  commentBg: "#181818",
 }
 
 export const lightTheme: ThemeColors = {
@@ -45,6 +45,10 @@ export function injectThemeStyles(theme: ThemeColors) {
 
     #hnmain {
       background-color: ${theme.tableBg} !important;
+    }
+
+    td[bgcolor="#ff6600"] {
+      background-color: ${theme.headerBg} !important;
     }
 
     a {
