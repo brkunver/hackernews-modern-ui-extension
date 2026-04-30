@@ -15,3 +15,14 @@ export function colorizeUsernames() {
     user.style.setProperty("color", `hsl(${h}, 65%, 70%)`, "important")
   })
 }
+
+export function colorizeCommentLinks() {
+  const links = document.querySelectorAll<HTMLAnchorElement>(".subtext a")
+
+  links.forEach(link => {
+    const text = link.textContent?.trim() || ""
+    if (text.includes("comment") || text === "discuss") {
+      link.classList.add("hn-comment-link")
+    }
+  })
+}

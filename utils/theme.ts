@@ -23,7 +23,7 @@ export const darkTheme: ThemeColors = {
   subtext: "#9a9a9a",
   commentBg: "#181818",
   domainText: "#6d6d6d",
-  commentLink: "#ffb86c",
+  commentLink: "#22d3ee", // Açık mavi/Turkuaz
 }
 
 export const lightTheme: ThemeColors = {
@@ -37,7 +37,7 @@ export const lightTheme: ThemeColors = {
   subtext: "#828282",
   commentBg: "#f6f6ef",
   domainText: "#666666",
-  commentLink: "#ff6600",
+  commentLink: "#0891b2", // Açık mavi/Turkuaz
 }
 
 export function injectThemeStyles(theme: ThemeColors) {
@@ -85,7 +85,7 @@ export function injectThemeStyles(theme: ThemeColors) {
       color: ${theme.text} !important;
     }
 
-    .subtext > a:last-child {
+    .subtext a.hn-comment-link {
       color: ${theme.commentLink} !important;
       font-weight: 500;
     }
