@@ -23,7 +23,7 @@ export const darkTheme: ThemeColors = {
   subtext: "#9a9a9a",
   commentBg: "#181818",
   domainText: "#6d6d6d",
-  commentLink: "#22d3ee", // Açık mavi/Turkuaz
+  commentLink: "#22d3ee",
 }
 
 export const lightTheme: ThemeColors = {
