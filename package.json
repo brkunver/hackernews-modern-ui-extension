@@ -17,17 +17,12 @@
     "resize": "pnpx @kunver/resize",
     "manager": "node manager.cjs pnpm"
   },
-  "dependencies": {
-    "solid-js": "^1.9.11"
-  },
   "devDependencies": {
-    "tailwindcss": "^4.2.1",
-    "@tailwindcss/vite": "^4.2.1",
-    "@wxt-dev/module-solid": "^1.1.4",
-    "typescript": "^5.9.3",
-    "wxt": "^0.20.18",
     "@wxt-dev/i18n": "0.2.5",
-    "concurrently": "^9.1.2"
+    "@wxt-dev/module-solid": "^1.1.4",
+    "concurrently": "^9.1.2",
+    "typescript": "^5.9.3",
+    "wxt": "^0.20.18"
   },
   "trustedDependencies": [
     "spawn-sync"

@@ -1,5 +1,4 @@
 import { defineConfig } from "wxt"
-import tailwindcss from "@tailwindcss/vite"
 
 // See https://wxt.dev/api/config.html
 export default defineConfig({
@@ -9,9 +8,6 @@ export default defineConfig({
     description: "__MSG_extensionDescription__",
   },
   modules: ["@wxt-dev/i18n/module", "@wxt-dev/module-solid"],
-  vite: () => ({
-    plugins: [tailwindcss()],
-  }),
   webExt: {
     disabled: true,
   },
