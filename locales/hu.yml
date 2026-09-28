@@ -1,2 +1,12 @@
 extensionName: Modern Hacker News UI
 extensionDescription: Fejleszd a Hacker News felhasználói felületét modern, tiszta és gyors dizájnnal.
+themeSectionTitle: Téma
+themeSectionDescription: Válassz színtémát a Hacker Newshez. Azonnal érvénybe lép minden megnyitott lapon.
+themeDark: Sötét
+themeLight: Világos
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: Élő előnézet
+openOptionsPage: További beállítások

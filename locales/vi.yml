@@ -1,2 +1,12 @@
 extensionName: UI Hiện đại cho Hacker News
 extensionDescription: Nâng cao giao diện Hacker News với thiết kế hiện đại, gọn gàng và nhanh chóng.
+themeSectionTitle: Giao diện
+themeSectionDescription: Chọn giao diện màu cho Hacker News. Áp dụng ngay cho mọi thẻ đang mở.
+themeDark: Tối
+themeLight: Sáng
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: Xem trước trực tiếp
+openOptionsPage: Tùy chọn khác

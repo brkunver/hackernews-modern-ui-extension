@@ -1,2 +1,12 @@
 extensionName: Moderné UI pre Hacker News
 extensionDescription: Vylepšite používateľské rozhranie Hacker News moderným, čistým a rýchlym dizajnom.
+themeSectionTitle: Motív
+themeSectionDescription: Vyberte farebnú tému pre Hacker News. Použije sa okamžite na všetkých otvorených kartách.
+themeDark: Tmavá
+themeLight: Svetlá
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: Živý náhľad
+openOptionsPage: Ďalšie možnosti

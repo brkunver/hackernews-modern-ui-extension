@@ -1,2 +1,12 @@
 extensionName: Mūsdienīgs Hacker News UI
 extensionDescription: Uzlabojiet Hacker News UI ar mūsdienīgu, tīru un ātru dizainu.
+themeSectionTitle: Tēma
+themeSectionDescription: Izvēlieties Hacker News krāsu tēmu. Tiek piemērota uzreiz visās atvērtajās cilnēs.
+themeDark: Tumša
+themeLight: Gaiša
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: Tiešsaistes priekšskatījums
+openOptionsPage: Vairāk opciju

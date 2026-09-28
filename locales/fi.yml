@@ -1,2 +1,12 @@
 extensionName: Moderni Hacker News UI
 extensionDescription: Paranna Hacker News -käyttöliittymää modernilla, siistillä ja nopealla suunnittelulla.
+themeSectionTitle: Teema
+themeSectionDescription: Valitse väriteema Hacker Newsille. Käytetään heti kaikissa avoimissa välilehdissä.
+themeDark: Tumma
+themeLight: Vaalea
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: Live-esikatselu
+openOptionsPage: Lisää asetuksia

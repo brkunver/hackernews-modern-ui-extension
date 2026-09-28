@@ -1,2 +1,12 @@
 extensionName: واجهة مستخدم حديثة لـ Hacker News
 extensionDescription: عزز واجهة مستخدم Hacker News بتصميم عصري ونظيف وسريع.
+themeSectionTitle: المظهر
+themeSectionDescription: اختر مظهرًا لونيًا لـ Hacker News. يُطبَّق فورًا على كل تبويب مفتوح.
+themeDark: داكن
+themeLight: فاتح
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: معاينة مباشرة
+openOptionsPage: خيارات إضافية

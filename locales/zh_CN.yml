@@ -1,2 +1,12 @@
 extensionName: Hacker News 现代 UI
 extensionDescription: 通过现代、简洁、快速的设计增强 Hacker News UI。
+themeSectionTitle: 主题
+themeSectionDescription: 为 Hacker News 选择配色主题。立即应用到所有已打开的标签页。
+themeDark: 深色
+themeLight: 浅色
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: 实时预览
+openOptionsPage: 更多选项

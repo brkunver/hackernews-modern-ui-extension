@@ -1,2 +1,12 @@
 extensionName: Moderni Hacker News UI
 extensionDescription: Poboljšajte Hacker News UI modernim, čistim i brzim dizajnom.
+themeSectionTitle: Tema
+themeSectionDescription: Odaberite temu boja za Hacker News. Primjenjuje se odmah na svim otvorenim karticama.
+themeDark: Tamna
+themeLight: Svijetla
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: Pregled uživo
+openOptionsPage: Više opcija

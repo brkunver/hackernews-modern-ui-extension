@@ -1,2 +1,12 @@
 extensionName: UI Modern Hacker News
 extensionDescription: Tingkatkan UI Hacker News dengan desain modern, bersih, dan cepat.
+themeSectionTitle: Tema
+themeSectionDescription: Pilih tema warna untuk Hacker News. Langsung diterapkan di setiap tab yang terbuka.
+themeDark: Gelap
+themeLight: Terang
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: Pratinjau langsung
+openOptionsPage: Opsi lainnya

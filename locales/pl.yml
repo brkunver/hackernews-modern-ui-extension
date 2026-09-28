@@ -1,2 +1,12 @@
 extensionName: Nowoczesny UI dla Hacker News
 extensionDescription: Ulepsz interfejs Hacker News dzięki nowoczesnemu, czystemu i szybkiemu designowi.
+themeSectionTitle: Motyw
+themeSectionDescription: Wybierz motyw kolorystyczny dla Hacker News. Stosowany od razu na wszystkich otwartych kartach.
+themeDark: Ciemny
+themeLight: Jasny
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: Podgląd na żywo
+openOptionsPage: Więcej opcji

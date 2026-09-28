@@ -1,2 +1,12 @@
 extensionName: Hacker News 모던 UI
 extensionDescription: 현대적이고 깔끔하며 빠른 디자인으로 Hacker News UI를 향상시킵니다.
+themeSectionTitle: 테마
+themeSectionDescription: Hacker News의 색상 테마를 선택하세요. 열려 있는 모든 탭에 즉시 적용됩니다.
+themeDark: 어두운
+themeLight: 밝은
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: 실시간 미리보기
+openOptionsPage: 추가 옵션

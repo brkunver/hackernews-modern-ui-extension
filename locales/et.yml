@@ -1,2 +1,12 @@
 extensionName: Kaasaegne Hacker News UI
 extensionDescription: Täiusta Hacker News kasutajaliidet kaasaegse, puhta ja kiire disainiga.
+themeSectionTitle: Teema
+themeSectionDescription: Vali Hacker Newsi jaoks värviteema. Rakendub kohe kõikidele avatud vahekaartidele.
+themeDark: Tume
+themeLight: Hele
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: Reaalajas eelvaade
+openOptionsPage: Rohkem valikuid

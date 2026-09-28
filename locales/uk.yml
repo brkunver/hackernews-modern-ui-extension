@@ -1,2 +1,12 @@
 extensionName: Сучасний інтерфейс Hacker News
 extensionDescription: Покращте інтерфейс Hacker News сучасним, чистим та швидким дизайном.
+themeSectionTitle: Тема
+themeSectionDescription: Виберіть колірну тему для Hacker News. Застосовується одразу в усіх відкритих вкладках.
+themeDark: Темна
+themeLight: Світла
+themeNord: Nord
+themeDracula: Dracula
+themeGruvbox: Gruvbox
+themeSolarized: Solarized Light
+themePreviewTitle: Живий перегляд
+openOptionsPage: Більше параметрів
