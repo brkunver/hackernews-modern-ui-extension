@@ -1,6 +1,6 @@
 {
   "name": "hackernews-modern-ui",
-  "description": "manifest.json description",
+  "description": "Hackernews Modern UI Extension",
   "private": true,
   "version": "1.1.0",
   "type": "module",
@@ -10,11 +10,12 @@
     "build": "wxt build",
     "build:firefox": "wxt build -b firefox",
     "zip": "wxt zip",
-    "zip:all": "bun runn zip && bun run zip:firefox",
+    "zip:all": "bun run zip && bun run zip:firefox",
     "zip:firefox": "wxt zip -b firefox",
     "compile": "tsc --noEmit",
     "postinstall": "wxt prepare",
     "resize": "bunx @kunver/resize",
+    "screenshots": "bun scripts/capture-store-screenshots.ts",
     "manager": "bun manager.cjs bun"
   },
   "devDependencies": {

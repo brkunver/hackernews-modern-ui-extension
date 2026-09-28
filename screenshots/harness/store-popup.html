@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Store screenshot: popup</title>
+    <link rel="stylesheet" href="/store.css" />
+    <!-- Holds the load event until the framed page has mounted, so Chrome's
+         --screenshot always captures a fully rendered composition. -->
+    <link rel="stylesheet" href="/slow.css" />
+  </head>
+  <body>
+    <div class="copy">
+      <p class="copy__eyebrow">Hacker News Modern UI</p>
+      <h1 class="copy__title">Six themes for Hacker News</h1>
+      <p class="copy__text">
+        Pick a palette from the toolbar popup and every open tab restyles itself instantly. Dark is the default — no
+        configuration needed.
+      </p>
+      <div class="chips">
+        <span class="chip"><i style="background: #22d3ee"></i>Dark</span>
+        <span class="chip"><i style="background: #0891b2"></i>Light</span>
+        <span class="chip"><i style="background: #a3be8c"></i>Nord</span>
+        <span class="chip"><i style="background: #50fa7b"></i>Dracula</span>
+        <span class="chip"><i style="background: #b8bb26"></i>Gruvbox</span>
+        <span class="chip"><i style="background: #1f7a75"></i>Solarized</span>
+      </div>
+    </div>
+
+    <div class="popup-scene">
+      <div class="popup-scene__toolbar">
+        <span class="popup-scene__dots"><i></i><i></i><i></i></span>
+        <span class="popup-scene__url">news.ycombinator.com</span>
+        <span class="popup-scene__ext"><img src="/icon/32.png" alt="" /></span>
+      </div>
+      <div class="popup-scene__popup">
+        <iframe src="/store-page.html?page=popup" title="Extension popup"></iframe>
+      </div>
+    </div>
+  </body>
+</html>

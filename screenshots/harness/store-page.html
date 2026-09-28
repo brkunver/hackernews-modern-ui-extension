@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Extension page</title>
+    <script>
+      // Stubs the extension APIs the built popup/options pages need, so they can be
+      // rendered (and screenshotted) outside of a browser extension context.
+      const messages = {
+        extensionName: "Hackernews Modern UI",
+        extensionDescription: "Enhance the Hacker News UI with a modern, clean, and fast design.",
+        themeSectionTitle: "Theme",
+        themeSectionDescription: "Pick a color theme for Hacker News. Applied instantly to every open tab.",
+        themeDark: "Dark",
+        themeLight: "Light",
+        themeNord: "Nord",
+        themeDracula: "Dracula",
+        themeGruvbox: "Gruvbox",
+        themeSolarized: "Solarized Light",
+        themePreviewTitle: "Live preview",
+        openOptionsPage: "More options",
+      }
+      const noop = () => {}
+      const area = {
+        get: async () => ({}),
+        set: async () => {},
+        remove: async () => {},
+        onChanged: { addListener: noop, removeListener: noop },
+      }
+      globalThis.chrome = {
+        i18n: { getMessage: key => messages[key] ?? "" },
+        storage: { sync: area, local: area, session: area, onChanged: { addListener: noop, removeListener: noop } },
+        runtime: { id: "screenshot", getURL: path => path, openOptionsPage: noop },
+      }
+    </script>
+    <style>
+      html,
+      body {
+        margin: 0;
+      }
+
+      body {
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module">
+      const page = new URLSearchParams(location.search).get("page") ?? "popup"
+      const html = await (await fetch(`/${page}.html`)).text()
+      const doc = new DOMParser().parseFromString(html, "text/html")
+
+      for (const link of doc.querySelectorAll('link[rel="stylesheet"]')) {
+        const el = document.createElement("link")
+        el.rel = "stylesheet"
+        el.href = link.getAttribute("href")
+        document.head.append(el)
+      }
+
+      // Pin the extension UI to its dark scheme so screenshots do not depend on the
+      // color scheme of the machine taking them. Appended last, so it wins the tie
+      // against the page's own `prefers-color-scheme: dark` block.
+      const scheme = document.createElement("style")
+      scheme.textContent = `
+        :root {
+          --ui-bg: #101216;
+          --ui-surface: #181b21;
+          --ui-text: #eceef2;
+          --ui-muted: #9aa1ad;
+          --ui-border: #2b2f38;
+          --ui-border-strong: #3d434f;
+          --ui-accent: #ff6600;
+          --ui-accent-soft: rgb(255 149 71 / 25%);
+          color-scheme: dark;
+        }
+      `
+      document.head.append(scheme)
+
+      for (const script of doc.querySelectorAll("script[src]")) {
+        const el = document.createElement("script")
+        el.type = "module"
+        el.src = script.getAttribute("src")
+        document.body.append(el)
+      }
+    </script>
+  </body>
+</html>

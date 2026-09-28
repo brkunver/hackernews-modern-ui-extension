@@ -19,5 +19,10 @@ to every open Hacker News tab right away. The built-in themes are:
 Theme definitions live in `utils/theme.ts`; the selection is stored with WXT storage
 (`sync:theme`) so it follows the user between browsers.
 
-Display names are translated through `@wxt-dev/i18n`. Only `locales/en.yml` ships the theme
-strings, and other locales fall back to English for those keys.
+Display names are translated through `@wxt-dev/i18n`. Every bundled locale ships the theme strings,
+so no locale falls back to English for the theme picker.
+
+## Screenshots
+
+The Chrome Web Store images live in `screenshots/` (1280x800 each). Regenerate them with
+`bun run screenshots`; see `screenshots/README.md` for what each one shows.
