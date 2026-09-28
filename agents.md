@@ -24,13 +24,10 @@ Hooks defined in your project can modify your manifest
 Your extension's manifest.json will be output to .output/{target}/manifest.json when running wxt build.
 
 - this extension should work on https://news.ycombinator.com/
-- this project uses SolidJS for frontend.
 - always use aliases when importing,(@/ for root)
 - this extension aims manifest v3
-- this project uses tailwindcss v4 for styling.
 - this project uses typescript for development.
 - this project uses prettier for code formatting.
-- this project uses vite.
 - this project uses bun package manager, not npm.
 - I should have a .prettierrc.json file in the root directory. please also follow rules on that.
 - entrypoints are in entrypoints directory
