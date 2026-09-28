@@ -1,4 +1,4 @@
-export function colorizeUsernames() {
+export function colorizeUsernames(lightness = 70) {
   const users = document.querySelectorAll<HTMLElement>(".hnuser")
 
   users.forEach(user => {
@@ -11,8 +11,8 @@ export function colorizeUsernames() {
     }
 
     const h = Math.abs(hash) % 360
-    // HSL with constrained saturation and lightness for dark backgrounds
-    user.style.setProperty("color", `hsl(${h}, 65%, 70%)`, "important")
+    // HSL with constrained saturation and lightness so it stays readable on the active theme
+    user.style.setProperty("color", `hsl(${h}, 65%, ${lightness}%)`, "important")
   })
 }
 
