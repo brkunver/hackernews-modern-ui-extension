@@ -1,0 +1,7 @@
+.output
+.wxt
+node_modules
+bun.lock
+test-results
+playwright-report
+tests/e2e/fixtures

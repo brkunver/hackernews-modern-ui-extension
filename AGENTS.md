@@ -1,33 +1,44 @@
-- This is a Web Extension Project
-- Goal : Enhance ui of Hacker News.
+# Agent notes
 
-- This project uses wxt framework for development. wxt is a extension development framework.
-- for hacker news selector info please read selectors.md file, it has important info about selectors and how to use them.
-- website to framework is : https://wxt.dev/
-- you can find docs on these websites :
+- This is a Web Extension whose goal is to enhance the UI of Hacker News (`https://news.ycombinator.com/`).
+- It is built with [WXT](https://wxt.dev/), targets Manifest V3 and is written in TypeScript with Solid.js for the
+  popup and options pages.
+- WXT docs for LLMs: https://wxt.dev/knowledge/docs.txt and https://wxt.dev/knowledge/api-reference.txt
+- For Hacker News selectors read `selectors.md`; it explains the page structure and which selectors are stable.
 
-1. https://wxt.dev//knowledge/docs.txt
-2. https://wxt.dev//knowledge/api-reference.txt
+## Conventions
 
-- use browser super global whenever you want to use chrome global. wxt uses browser global for development
-  for example:
-  browser.runtime.getURL() instead of chrome.runtime.getURL()
+- Use the `browser` global, never `chrome` (e.g. `browser.runtime.getURL()`), except in test code that runs inside
+  an extension page.
+- Always import with the `@/` alias (project root).
+- Format with Prettier using `.prettierrc.json` (`bun run format`).
+- Use bun, not npm.
+- There is no `manifest.json` in the source. WXT generates it from `wxt.config.ts`, the entrypoints and modules;
+  the output lands in `.output/{target}/manifest.json` after `bun run build`.
+- Entrypoints live in `entrypoints/`, shared UI in `components/`, page logic in `utils/`.
+- Every user-facing string goes through `@wxt-dev/i18n`. Add new keys to **every** file in `locales/` and to the
+  `messages` stub in `screenshots/harness/store-page.html`.
 
-## Manifest :
+## Where things are
 
-In WXT, there is no manifest.json file in your source code. Instead, WXT generates the manifest from multiple sources:
+| Path                     | What                                                                |
+| ------------------------ | ------------------------------------------------------------------- |
+| `entrypoints/content.ts` | Runs at `document_start`; applies the theme, layout and shortcuts   |
+| `utils/theme.ts`         | Palettes, `system`/`off` selections and the theme CSS               |
+| `utils/layout.ts`        | Modern layout, text size and keyboard highlight CSS                 |
+| `utils/preferences.ts`   | Layout/keyboard preferences and their defaults                      |
+| `utils/storage.ts`       | Synced storage items (`sync:theme`, `sync:preferences`)             |
+| `utils/comments.ts`      | Comment thread depth and OP markers                                 |
+| `utils/keyboard.ts`      | j/k/o/c keyboard navigation                                         |
+| `components/`            | Theme picker, preview and preference controls for the popup/options |
 
-Global options defined in wxt.config.ts file
-Entrypoint-specific options defined in your entrypoints
-WXT Modules added to your project can modify your manifest
-Hooks defined in your project can modify your manifest
-Your extension's manifest.json will be output to .output/{target}/manifest.json when running wxt build.
+## Checks
 
-- this extension should work on https://news.ycombinator.com/
-- always use aliases when importing,(@/ for root)
-- this extension aims manifest v3
-- this project uses typescript for development.
-- this project uses prettier for code formatting.
-- this project uses bun package manager, not npm.
-- I should have a .prettierrc.json file in the root directory. please also follow rules on that.
-- entrypoints are in entrypoints directory
+Run these before committing:
+
+```bash
+bun run compile      # typecheck
+bun run test         # unit tests (bun test)
+bun run test:e2e     # builds, then loads the extension in Chromium against tests/e2e/fixtures
+bun run format:check
+```

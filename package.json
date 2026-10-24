@@ -16,16 +16,21 @@
     "postinstall": "wxt prepare",
     "resize": "bunx @kunver/resize",
     "screenshots": "bun scripts/capture-store-screenshots.ts",
-    "manager": "bun manager.cjs bun"
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "bun test tests/unit",
+    "test:e2e": "bun run build && playwright test"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.12"
   },
   "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/bun": "^1.4.4",
     "@wxt-dev/i18n": "0.2.7",
     "@wxt-dev/module-solid": "^1.1.4",
-    "concurrently": "^9.1.2",
+    "prettier": "^3.9.10",
     "typescript": "^5.9.3",
     "wxt": "^0.21.4"
-  },
-  "trustedDependencies": [
-    "spawn-sync"
-  ]
+  }
 }
