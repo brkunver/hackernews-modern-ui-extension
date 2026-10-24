@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: ดูตัวอย่างสด
 openOptionsPage: ตัวเลือกเพิ่มเติม
+themeSystem: ระบบ
+themeOff: ต้นฉบับ
+layoutSectionTitle: เลย์เอาต์
+modernLayout: เลย์เอาต์สมัยใหม่
+modernLayoutDescription: ฟอนต์สมัยใหม่ ระยะห่างโปร่งขึ้น เธรดความคิดเห็นหลากสี และป้าย OP
+density: ความหนาแน่น
+densityComfortable: สบายตา
+densityCompact: กะทัดรัด
+fontSize: ขนาดตัวอักษร
+keyboardSectionTitle: แป้นพิมพ์ลัด
+keyboardNav: เปิดใช้แป้นพิมพ์ลัด
+shortcutMove: เลือกข่าวหรือความคิดเห็นถัดไป / ก่อนหน้า
+shortcutOpen: เปิดข่าวหรือยุบความคิดเห็น (Shift = แท็บใหม่)
+shortcutComments: เปิดความคิดเห็น (Shift = แท็บใหม่)

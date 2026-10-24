@@ -32,8 +32,7 @@ body {
   margin: 0;
   background: var(--ui-bg);
   color: var(--ui-text);
-  font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 13px;
 }
 
@@ -80,6 +79,15 @@ body {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+}
+
+.popup__toggle {
+  margin-top: 12px;
+}
+
+.popup__toggle .pref-row {
+  padding: 0;
+  border-top: none;
 }
 
 .popup__footer {

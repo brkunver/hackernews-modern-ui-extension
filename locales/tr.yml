@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Canlı önizleme
 openOptionsPage: Diğer seçenekler
+themeSystem: Sistem
+themeOff: Orijinal
+layoutSectionTitle: Düzen
+modernLayout: Modern düzen
+modernLayoutDescription: Modern yazı tipleri, daha ferah boşluklar, renkli yorum dizileri ve OP rozeti.
+density: Yoğunluk
+densityComfortable: Rahat
+densityCompact: Sıkı
+fontSize: Yazı boyutu
+keyboardSectionTitle: Klavye kısayolları
+keyboardNav: Klavye kısayollarını etkinleştir
+shortcutMove: Sonraki / önceki haberi veya yorumu seç
+shortcutOpen: Haberi aç veya yorumu daralt (Shift = yeni sekme)
+shortcutComments: Yorumları aç (Shift = yeni sekme)

@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Prévia ao vivo
 openOptionsPage: Mais opções
+themeSystem: Sistema
+themeOff: Original
+layoutSectionTitle: Layout
+modernLayout: Layout moderno
+modernLayoutDescription: Fontes modernas, mais espaçamento, threads de comentários coloridas e um selo OP.
+density: Densidade
+densityComfortable: Confortável
+densityCompact: Compacta
+fontSize: Tamanho do texto
+keyboardSectionTitle: Atalhos de teclado
+keyboardNav: Ativar atalhos de teclado
+shortcutMove: Selecionar a próxima / anterior notícia ou comentário
+shortcutOpen: Abrir a notícia ou recolher o comentário (Shift = nova aba)
+shortcutComments: Abrir os comentários (Shift = nova aba)

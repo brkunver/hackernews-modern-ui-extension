@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Liveförhandsvisning
 openOptionsPage: Fler alternativ
+themeSystem: System
+themeOff: Original
+layoutSectionTitle: Layout
+modernLayout: Modern layout
+modernLayoutDescription: Moderna typsnitt, luftigare avstånd, färgade kommentarstrådar och en OP-märkning.
+density: Täthet
+densityComfortable: Luftig
+densityCompact: Kompakt
+fontSize: Textstorlek
+keyboardSectionTitle: Kortkommandon
+keyboardNav: Aktivera kortkommandon
+shortcutMove: Välj nästa / föregående artikel eller kommentar
+shortcutOpen: Öppna artikeln eller fäll ihop kommentaren (Skift = ny flik)
+shortcutComments: Öppna kommentarerna (Skift = ny flik)

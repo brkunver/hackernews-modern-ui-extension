@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: లైవ్ ప్రివ్యూ
 openOptionsPage: మరిన్ని ఎంపికలు
+themeSystem: సిస్టమ్
+themeOff: అసలు
+layoutSectionTitle: లేఅవుట్
+modernLayout: ఆధునిక లేఅవుట్
+modernLayoutDescription: ఆధునిక ఫాంట్‌లు, విశాలమైన ఖాళీ, రంగుల వ్యాఖ్యల థ్రెడ్‌లు మరియు OP బ్యాడ్జ్.
+density: సాంద్రత
+densityComfortable: సౌకర్యవంతం
+densityCompact: కాంపాక్ట్
+fontSize: టెక్స్ట్ పరిమాణం
+keyboardSectionTitle: కీబోర్డ్ షార్ట్‌కట్‌లు
+keyboardNav: కీబోర్డ్ షార్ట్‌కట్‌లను ప్రారంభించు
+shortcutMove: తదుపరి / మునుపటి వార్త లేదా వ్యాఖ్యను ఎంచుకో
+shortcutOpen: వార్తను తెరువు లేదా వ్యాఖ్యను కుదించు (Shift = కొత్త ట్యాబ్)
+shortcutComments: వ్యాఖ్యలను తెరువు (Shift = కొత్త ట్యాబ్)

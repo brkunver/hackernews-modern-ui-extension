@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: 실시간 미리보기
 openOptionsPage: 추가 옵션
+themeSystem: 시스템
+themeOff: 원본
+layoutSectionTitle: 레이아웃
+modernLayout: 모던 레이아웃
+modernLayoutDescription: 모던한 글꼴, 여유로운 간격, 색으로 구분된 댓글 스레드와 OP 배지.
+density: 밀도
+densityComfortable: 여유롭게
+densityCompact: 촘촘하게
+fontSize: 글자 크기
+keyboardSectionTitle: 키보드 단축키
+keyboardNav: 키보드 단축키 사용
+shortcutMove: 다음 / 이전 기사 또는 댓글 선택
+shortcutOpen: 기사 열기 또는 댓글 접기 (Shift = 새 탭)
+shortcutComments: 댓글 열기 (Shift = 새 탭)

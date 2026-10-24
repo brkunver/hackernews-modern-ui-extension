@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Live-Vorschau
 openOptionsPage: Weitere Optionen
+themeSystem: System
+themeOff: Original
+layoutSectionTitle: Layout
+modernLayout: Modernes Layout
+modernLayoutDescription: Moderne Schriften, mehr Abstand, farbige Kommentar-Threads und ein OP-Abzeichen.
+density: Dichte
+densityComfortable: Komfortabel
+densityCompact: Kompakt
+fontSize: Textgröße
+keyboardSectionTitle: Tastenkürzel
+keyboardNav: Tastenkürzel aktivieren
+shortcutMove: Nächste / vorherige Story oder Kommentar auswählen
+shortcutOpen: Story öffnen oder Kommentar einklappen (Umschalt = neuer Tab)
+shortcutComments: Kommentare öffnen (Umschalt = neuer Tab)

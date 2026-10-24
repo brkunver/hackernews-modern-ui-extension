@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: 即時預覽
 openOptionsPage: 更多選項
+themeSystem: 跟隨系統
+themeOff: 原版
+layoutSectionTitle: 版面配置
+modernLayout: 現代版面配置
+modernLayoutDescription: 現代字型、更寬鬆的間距、彩色留言串和 OP 徽章。
+density: 密度
+densityComfortable: 寬鬆
+densityCompact: 緊湊
+fontSize: 文字大小
+keyboardSectionTitle: 鍵盤快速鍵
+keyboardNav: 啟用鍵盤快速鍵
+shortcutMove: 選取下一則 / 上一則新聞或留言
+shortcutOpen: 開啟新聞或收合留言（Shift = 新分頁）
+shortcutComments: 開啟留言（Shift = 新分頁）

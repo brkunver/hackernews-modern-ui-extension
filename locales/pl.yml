@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Podgląd na żywo
 openOptionsPage: Więcej opcji
+themeSystem: Systemowy
+themeOff: Oryginalny
+layoutSectionTitle: Układ
+modernLayout: Nowoczesny układ
+modernLayoutDescription: Nowoczesne czcionki, większe odstępy, kolorowe wątki komentarzy i plakietka OP.
+density: Gęstość
+densityComfortable: Wygodna
+densityCompact: Zwarta
+fontSize: Rozmiar tekstu
+keyboardSectionTitle: Skróty klawiszowe
+keyboardNav: Włącz skróty klawiszowe
+shortcutMove: Zaznacz następny / poprzedni artykuł lub komentarz
+shortcutOpen: Otwórz artykuł lub zwiń komentarz (Shift = nowa karta)
+shortcutComments: Otwórz komentarze (Shift = nowa karta)

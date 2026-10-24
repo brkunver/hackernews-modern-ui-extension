@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Onyesho la moja kwa moja
 openOptionsPage: Chaguo zaidi
+themeSystem: Mfumo
+themeOff: Asili
+layoutSectionTitle: Mpangilio
+modernLayout: Mpangilio wa kisasa
+modernLayoutDescription: Fonti za kisasa, nafasi pana zaidi, mazungumzo ya maoni yenye rangi na beji ya OP.
+density: Msongamano
+densityComfortable: Starehe
+densityCompact: Iliyobanwa
+fontSize: Ukubwa wa maandishi
+keyboardSectionTitle: Mikato ya kibodi
+keyboardNav: Washa mikato ya kibodi
+shortcutMove: Chagua habari au maoni yanayofuata / yaliyotangulia
+shortcutOpen: Fungua habari au kunja maoni (Shift = kichupo kipya)
+shortcutComments: Fungua maoni (Shift = kichupo kipya)

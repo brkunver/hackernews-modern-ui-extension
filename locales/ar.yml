@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: معاينة مباشرة
 openOptionsPage: خيارات إضافية
+themeSystem: النظام
+themeOff: الأصلي
+layoutSectionTitle: التخطيط
+modernLayout: تخطيط حديث
+modernLayoutDescription: خطوط حديثة ومسافات أوسع وسلاسل تعليقات ملوّنة وشارة OP.
+density: الكثافة
+densityComfortable: مريحة
+densityCompact: مضغوطة
+fontSize: حجم النص
+keyboardSectionTitle: اختصارات لوحة المفاتيح
+keyboardNav: تفعيل اختصارات لوحة المفاتيح
+shortcutMove: تحديد القصة أو التعليق التالي / السابق
+shortcutOpen: فتح القصة أو طي التعليق (Shift = علامة تبويب جديدة)
+shortcutComments: فتح التعليقات (Shift = علامة تبويب جديدة)

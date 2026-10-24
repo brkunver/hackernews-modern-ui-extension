@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Predogled v živo
 openOptionsPage: Več možnosti
+themeSystem: Sistem
+themeOff: Izvirno
+layoutSectionTitle: Postavitev
+modernLayout: Sodobna postavitev
+modernLayoutDescription: Sodobne pisave, več prostora, barvne niti komentarjev in značka OP.
+density: Gostota
+densityComfortable: Udobna
+densityCompact: Strnjena
+fontSize: Velikost besedila
+keyboardSectionTitle: Bližnjice na tipkovnici
+keyboardNav: Omogoči bližnjice na tipkovnici
+shortcutMove: Izberi naslednjo / prejšnjo zgodbo ali komentar
+shortcutOpen: Odpri zgodbo ali strni komentar (Shift = nov zavihek)
+shortcutComments: Odpri komentarje (Shift = nov zavihek)

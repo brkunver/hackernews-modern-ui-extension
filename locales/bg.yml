@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Преглед на живо
 openOptionsPage: Още опции
+themeSystem: Системна
+themeOff: Оригинална
+layoutSectionTitle: Оформление
+modernLayout: Модерно оформление
+modernLayoutDescription: Модерни шрифтове, повече пространство, цветни нишки на коментарите и значка OP.
+density: Плътност
+densityComfortable: Удобна
+densityCompact: Компактна
+fontSize: Размер на текста
+keyboardSectionTitle: Клавишни комбинации
+keyboardNav: Включване на клавишните комбинации
+shortcutMove: Избор на следваща / предишна статия или коментар
+shortcutOpen: Отваряне на статията или свиване на коментара (Shift = нов раздел)
+shortcutComments: Отваряне на коментарите (Shift = нов раздел)

@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Живой предпросмотр
 openOptionsPage: Дополнительные параметры
+themeSystem: Системная
+themeOff: Оригинальная
+layoutSectionTitle: Макет
+modernLayout: Современный макет
+modernLayoutDescription: Современные шрифты, больше воздуха, цветные ветки комментариев и значок OP.
+density: Плотность
+densityComfortable: Свободная
+densityCompact: Компактная
+fontSize: Размер текста
+keyboardSectionTitle: Сочетания клавиш
+keyboardNav: Включить сочетания клавиш
+shortcutMove: Выбрать следующую / предыдущую новость или комментарий
+shortcutOpen: Открыть новость или свернуть комментарий (Shift = новая вкладка)
+shortcutComments: Открыть комментарии (Shift = новая вкладка)

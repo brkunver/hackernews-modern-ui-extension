@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: ቀጥታ ቅድመ እይታ
 openOptionsPage: ተጨማሪ አማራጮች
+themeSystem: ሲስተም
+themeOff: ኦሪጅናል
+layoutSectionTitle: አቀማመጥ
+modernLayout: ዘመናዊ አቀማመጥ
+modernLayoutDescription: ዘመናዊ ቅርጸ-ቁምፊዎች፣ ሰፊ ክፍተት፣ ባለቀለም የአስተያየት ክሮች እና የOP ምልክት።
+density: ጥግግት
+densityComfortable: ምቹ
+densityCompact: የታመቀ
+fontSize: የጽሑፍ መጠን
+keyboardSectionTitle: የቁልፍ ሰሌዳ አቋራጮች
+keyboardNav: የቁልፍ ሰሌዳ አቋራጮችን አንቃ
+shortcutMove: ቀጣዩን / ቀዳሚውን ዜና ወይም አስተያየት ምረጥ
+shortcutOpen: ዜናውን ክፈት ወይም አስተያየቱን ሰብስብ (Shift = አዲስ ትር)
+shortcutComments: አስተያየቶቹን ክፈት (Shift = አዲስ ትር)

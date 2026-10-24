@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Live-forhåndsvisning
 openOptionsPage: Flere indstillinger
+themeSystem: System
+themeOff: Original
+layoutSectionTitle: Layout
+modernLayout: Moderne layout
+modernLayoutDescription: Moderne skrifttyper, mere luft, farvede kommentartråde og et OP-mærke.
+density: Tæthed
+densityComfortable: Luftig
+densityCompact: Kompakt
+fontSize: Tekststørrelse
+keyboardSectionTitle: Tastaturgenveje
+keyboardNav: Aktivér tastaturgenveje
+shortcutMove: Vælg næste / forrige historie eller kommentar
+shortcutOpen: Åbn historien eller fold kommentaren sammen (Skift = ny fane)
+shortcutComments: Åbn kommentarerne (Skift = ny fane)

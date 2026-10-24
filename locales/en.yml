@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Live preview
 openOptionsPage: More options
+themeSystem: System
+themeOff: Original
+layoutSectionTitle: Layout
+modernLayout: Modern layout
+modernLayoutDescription: Modern fonts, roomier spacing, colored comment threads and an OP badge.
+density: Density
+densityComfortable: Comfortable
+densityCompact: Compact
+fontSize: Text size
+keyboardSectionTitle: Keyboard shortcuts
+keyboardNav: Enable keyboard shortcuts
+shortcutMove: Select the next / previous story or comment
+shortcutOpen: Open the story or collapse the comment (Shift = new tab)
+shortcutComments: Open the comments (Shift = new tab)

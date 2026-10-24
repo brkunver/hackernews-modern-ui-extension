@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Live-esikatselu
 openOptionsPage: Lisää asetuksia
+themeSystem: Järjestelmä
+themeOff: Alkuperäinen
+layoutSectionTitle: Asettelu
+modernLayout: Moderni asettelu
+modernLayoutDescription: Modernit fontit, väljemmät välit, värikkäät kommenttiketjut ja OP-merkki.
+density: Tiheys
+densityComfortable: Väljä
+densityCompact: Tiivis
+fontSize: Tekstin koko
+keyboardSectionTitle: Pikanäppäimet
+keyboardNav: Ota pikanäppäimet käyttöön
+shortcutMove: Valitse seuraava / edellinen juttu tai kommentti
+shortcutOpen: Avaa juttu tai tiivistä kommentti (Vaihto = uusi välilehti)
+shortcutComments: Avaa kommentit (Vaihto = uusi välilehti)

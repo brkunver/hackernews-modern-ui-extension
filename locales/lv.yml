@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Tiešsaistes priekšskatījums
 openOptionsPage: Vairāk opciju
+themeSystem: Sistēma
+themeOff: Oriģinālais
+layoutSectionTitle: Izkārtojums
+modernLayout: Moderns izkārtojums
+modernLayoutDescription: Moderni fonti, plašākas atstarpes, krāsaini komentāru pavedieni un OP nozīmīte.
+density: Blīvums
+densityComfortable: Ērts
+densityCompact: Kompakts
+fontSize: Teksta izmērs
+keyboardSectionTitle: Īsinājumtaustiņi
+keyboardNav: Iespējot īsinājumtaustiņus
+shortcutMove: Atlasīt nākamo / iepriekšējo rakstu vai komentāru
+shortcutOpen: Atvērt rakstu vai sakļaut komentāru (Shift = jauna cilne)
+shortcutComments: Atvērt komentārus (Shift = jauna cilne)

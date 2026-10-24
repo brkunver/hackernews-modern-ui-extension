@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Forhåndsvisning i sanntid
 openOptionsPage: Flere alternativer
+themeSystem: System
+themeOff: Original
+layoutSectionTitle: Oppsett
+modernLayout: Moderne oppsett
+modernLayoutDescription: Moderne skrifttyper, luftigere avstand, fargede kommentartråder og et OP-merke.
+density: Tetthet
+densityComfortable: Luftig
+densityCompact: Kompakt
+fontSize: Tekststørrelse
+keyboardSectionTitle: Hurtigtaster
+keyboardNav: Slå på hurtigtaster
+shortcutMove: Velg neste / forrige sak eller kommentar
+shortcutOpen: Åpne saken eller skjul kommentaren (Shift = ny fane)
+shortcutComments: Åpne kommentarene (Shift = ny fane)

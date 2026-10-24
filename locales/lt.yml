@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Tiesioginė peržiūra
 openOptionsPage: Daugiau parinkčių
+themeSystem: Sistema
+themeOff: Originalus
+layoutSectionTitle: Išdėstymas
+modernLayout: Modernus išdėstymas
+modernLayoutDescription: Modernūs šriftai, erdvesni tarpai, spalvotos komentarų gijos ir OP ženklelis.
+density: Tankumas
+densityComfortable: Erdvus
+densityCompact: Kompaktiškas
+fontSize: Teksto dydis
+keyboardSectionTitle: Spartieji klavišai
+keyboardNav: Įjungti sparčiuosius klavišus
+shortcutMove: Pasirinkti kitą / ankstesnį straipsnį ar komentarą
+shortcutOpen: Atidaryti straipsnį arba suskleisti komentarą (Shift = naujas skirtukas)
+shortcutComments: Atidaryti komentarus (Shift = naujas skirtukas)

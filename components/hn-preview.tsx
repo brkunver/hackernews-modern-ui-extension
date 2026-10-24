@@ -60,10 +60,7 @@ export function HnPreview(props: HnPreviewProps) {
       class="hn-preview"
       style={`background-color: ${colors().background}; color: ${colors().text}; border-color: ${colors().border}`}
     >
-      <div
-        class="hn-preview__header"
-        style={`background-color: ${colors().headerBg}; color: ${colors().accentText}`}
-      >
+      <div class="hn-preview__header" style={`background-color: ${colors().headerBg}; color: ${colors().accentText}`}>
         <span class="hn-preview__logo">Y</span>
         <span class="hn-preview__brand">Hacker News</span>
         <span class="hn-preview__nav">new | past | comments | ask | show | jobs | submit</span>
@@ -86,12 +83,9 @@ export function HnPreview(props: HnPreviewProps) {
                   </span>
                 </div>
                 <div class="hn-preview__subtext" style={`color: ${colors().subtext}`}>
-                  {story.score} points by{" "}
-                  <span style={`color: ${colors().link}`}>{story.user}</span>{" "}
+                  {story.score} points by <span style={`color: ${colors().link}`}>{story.user}</span>{" "}
                   <span style={`color: ${colors().subtext}`}>{story.age}</span> |{" "}
-                  <span style={`color: ${colors().commentLink}; font-weight: 500`}>
-                    {story.comments} comments
-                  </span>
+                  <span style={`color: ${colors().commentLink}; font-weight: 500`}>{story.comments} comments</span>
                 </div>
               </div>
             </li>

@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: लाइव पूर्वावलोकन
 openOptionsPage: और विकल्प
+themeSystem: सिस्टम
+themeOff: मूल
+layoutSectionTitle: लेआउट
+modernLayout: आधुनिक लेआउट
+modernLayoutDescription: आधुनिक फ़ॉन्ट, खुली-खुली स्पेसिंग, रंगीन टिप्पणी थ्रेड और OP बैज।
+density: घनत्व
+densityComfortable: आरामदायक
+densityCompact: कॉम्पैक्ट
+fontSize: टेक्स्ट का आकार
+keyboardSectionTitle: कीबोर्ड शॉर्टकट
+keyboardNav: कीबोर्ड शॉर्टकट चालू करें
+shortcutMove: अगली / पिछली स्टोरी या टिप्पणी चुनें
+shortcutOpen: स्टोरी खोलें या टिप्पणी समेटें (Shift = नया टैब)
+shortcutComments: टिप्पणियाँ खोलें (Shift = नया टैब)

@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: پیشنمایش زنده
 openOptionsPage: گزینههای بیشتر
+themeSystem: سیستم
+themeOff: اصلی
+layoutSectionTitle: چیدمان
+modernLayout: چیدمان مدرن
+modernLayoutDescription: فونت‌های مدرن، فاصله‌گذاری بازتر، رشته‌های نظر رنگی و نشان OP.
+density: تراکم
+densityComfortable: راحت
+densityCompact: فشرده
+fontSize: اندازه متن
+keyboardSectionTitle: میان‌برهای صفحه‌کلید
+keyboardNav: فعال کردن میان‌برهای صفحه‌کلید
+shortcutMove: انتخاب خبر یا نظر بعدی / قبلی
+shortcutOpen: باز کردن خبر یا جمع کردن نظر (Shift = زبانه جدید)
+shortcutComments: باز کردن نظرها (Shift = زبانه جدید)

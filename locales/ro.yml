@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Previzualizare live
 openOptionsPage: Mai multe opțiuni
+themeSystem: Sistem
+themeOff: Original
+layoutSectionTitle: Aspect
+modernLayout: Aspect modern
+modernLayoutDescription: Fonturi moderne, spațiere mai aerisită, fire de comentarii colorate și o insignă OP.
+density: Densitate
+densityComfortable: Confortabilă
+densityCompact: Compactă
+fontSize: Dimensiunea textului
+keyboardSectionTitle: Comenzi rapide de la tastatură
+keyboardNav: Activează comenzile rapide de la tastatură
+shortcutMove: Selectează articolul sau comentariul următor / anterior
+shortcutOpen: Deschide articolul sau restrânge comentariul (Shift = filă nouă)
+shortcutComments: Deschide comentariile (Shift = filă nouă)

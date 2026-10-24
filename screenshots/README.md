@@ -3,12 +3,12 @@
 Every image is **1280x800** (the size the Chrome Web Store asks for), and the store listing takes
 them in this order:
 
-| File                          | Shows                                                                  |
-| ----------------------------- | ---------------------------------------------------------------------- |
-| `01-popup.png`                | The toolbar popup with the theme picker, all six palettes              |
-| `02-options.png`              | The options page: theme grid and the live Hacker News preview          |
-| `03-hacker-news-dark.png`     | The Hacker News front page with the default dark theme applied         |
-| `04-hacker-news-solarized.png`| An item page with comments using the Solarized (light) theme           |
+| File                           | Shows                                                          |
+| ------------------------------ | -------------------------------------------------------------- |
+| `01-popup.png`                 | The toolbar popup with the theme picker, all six palettes      |
+| `02-options.png`               | The options page: theme grid and the live Hacker News preview  |
+| `03-hacker-news-dark.png`      | The Hacker News front page with the default dark theme applied |
+| `04-hacker-news-solarized.png` | An item page with comments using the Solarized (light) theme   |
 
 ## Regenerating
 

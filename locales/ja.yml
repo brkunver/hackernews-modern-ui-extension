@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: ライブプレビュー
 openOptionsPage: その他の設定
+themeSystem: システム
+themeOff: オリジナル
+layoutSectionTitle: レイアウト
+modernLayout: モダンレイアウト
+modernLayoutDescription: モダンなフォント、ゆとりのある余白、色分けされたコメントスレッド、OPバッジ。
+density: 密度
+densityComfortable: ゆったり
+densityCompact: コンパクト
+fontSize: 文字サイズ
+keyboardSectionTitle: キーボードショートカット
+keyboardNav: キーボードショートカットを有効にする
+shortcutMove: 次 / 前の記事またはコメントを選択
+shortcutOpen: 記事を開く、またはコメントを折りたたむ（Shift = 新しいタブ）
+shortcutComments: コメントを開く（Shift = 新しいタブ）

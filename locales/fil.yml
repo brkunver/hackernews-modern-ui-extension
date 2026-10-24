@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Live na preview
 openOptionsPage: Higit pang opsyon
+themeSystem: System
+themeOff: Orihinal
+layoutSectionTitle: Layout
+modernLayout: Modernong layout
+modernLayoutDescription: Mga modernong font, mas maluwag na espasyo, makukulay na thread ng komento at OP badge.
+density: Densidad
+densityComfortable: Maluwag
+densityCompact: Siksik
+fontSize: Laki ng teksto
+keyboardSectionTitle: Mga keyboard shortcut
+keyboardNav: I-enable ang mga keyboard shortcut
+shortcutMove: Piliin ang susunod / nakaraang balita o komento
+shortcutOpen: Buksan ang balita o i-collapse ang komento (Shift = bagong tab)
+shortcutComments: Buksan ang mga komento (Shift = bagong tab)

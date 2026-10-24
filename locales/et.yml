@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Reaalajas eelvaade
 openOptionsPage: Rohkem valikuid
+themeSystem: Süsteem
+themeOff: Algne
+layoutSectionTitle: Paigutus
+modernLayout: Moodne paigutus
+modernLayoutDescription: Moodsad fondid, avaram vahe, värvilised kommentaarilõimed ja OP-märk.
+density: Tihedus
+densityComfortable: Avar
+densityCompact: Kompaktne
+fontSize: Teksti suurus
+keyboardSectionTitle: Kiirklahvid
+keyboardNav: Luba kiirklahvid
+shortcutMove: Vali järgmine / eelmine lugu või kommentaar
+shortcutOpen: Ava lugu või ahenda kommentaar (Shift = uus vaheleht)
+shortcutComments: Ava kommentaarid (Shift = uus vaheleht)

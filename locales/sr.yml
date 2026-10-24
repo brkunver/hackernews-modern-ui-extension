@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Преглед уживо
 openOptionsPage: Још опција
+themeSystem: Систем
+themeOff: Оригинал
+layoutSectionTitle: Распоред
+modernLayout: Модеран распоред
+modernLayoutDescription: Модерни фонтови, прозрачнији размаци, обојене нити коментара и ОП ознака.
+density: Густина
+densityComfortable: Удобна
+densityCompact: Збијена
+fontSize: Величина текста
+keyboardSectionTitle: Пречице на тастатури
+keyboardNav: Омогући пречице на тастатури
+shortcutMove: Изабери следећу / претходну причу или коментар
+shortcutOpen: Отвори причу или скупи коментар (Shift = нова картица)
+shortcutComments: Отвори коментаре (Shift = нова картица)

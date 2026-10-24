@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Live voorbeeld
 openOptionsPage: Meer opties
+themeSystem: Systeem
+themeOff: Origineel
+layoutSectionTitle: Indeling
+modernLayout: Moderne indeling
+modernLayoutDescription: Moderne lettertypen, meer witruimte, gekleurde reactiedraden en een OP-badge.
+density: Dichtheid
+densityComfortable: Ruim
+densityCompact: Compact
+fontSize: Tekstgrootte
+keyboardSectionTitle: Sneltoetsen
+keyboardNav: Sneltoetsen inschakelen
+shortcutMove: Volgend / vorig verhaal of reactie selecteren
+shortcutOpen: Verhaal openen of reactie inklappen (Shift = nieuw tabblad)
+shortcutComments: Reacties openen (Shift = nieuw tabblad)

@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Élő előnézet
 openOptionsPage: További beállítások
+themeSystem: Rendszer
+themeOff: Eredeti
+layoutSectionTitle: Elrendezés
+modernLayout: Modern elrendezés
+modernLayoutDescription: Modern betűtípusok, levegősebb térközök, színes hozzászólásszálak és OP jelvény.
+density: Sűrűség
+densityComfortable: Kényelmes
+densityCompact: Tömör
+fontSize: Szövegméret
+keyboardSectionTitle: Billentyűparancsok
+keyboardNav: Billentyűparancsok engedélyezése
+shortcutMove: Következő / előző hír vagy hozzászólás kijelölése
+shortcutOpen: Hír megnyitása vagy hozzászólás összecsukása (Shift = új lap)
+shortcutComments: Hozzászólások megnyitása (Shift = új lap)

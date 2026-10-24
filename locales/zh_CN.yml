@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: 实时预览
 openOptionsPage: 更多选项
+themeSystem: 跟随系统
+themeOff: 原版
+layoutSectionTitle: 布局
+modernLayout: 现代布局
+modernLayoutDescription: 现代字体、更宽松的间距、彩色评论线程和 OP 徽章。
+density: 密度
+densityComfortable: 宽松
+densityCompact: 紧凑
+fontSize: 文字大小
+keyboardSectionTitle: 键盘快捷键
+keyboardNav: 启用键盘快捷键
+shortcutMove: 选择下一条 / 上一条新闻或评论
+shortcutOpen: 打开新闻或折叠评论（Shift = 新标签页）
+shortcutComments: 打开评论（Shift = 新标签页）

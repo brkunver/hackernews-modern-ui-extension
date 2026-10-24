@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Vista prèvia en directe
 openOptionsPage: Més opcions
+themeSystem: Sistema
+themeOff: Original
+layoutSectionTitle: Disseny
+modernLayout: Disseny modern
+modernLayoutDescription: Tipus de lletra moderns, més espai, fils de comentaris en color i una insígnia OP.
+density: Densitat
+densityComfortable: Còmoda
+densityCompact: Compacta
+fontSize: Mida del text
+keyboardSectionTitle: Dreceres de teclat
+keyboardNav: Activa les dreceres de teclat
+shortcutMove: Selecciona la notícia o el comentari següent / anterior
+shortcutOpen: Obre la notícia o plega el comentari (Maj = pestanya nova)
+shortcutComments: Obre els comentaris (Maj = pestanya nova)

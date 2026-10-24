@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Ζωντανή προεπισκόπηση
 openOptionsPage: Περισσότερες επιλογές
+themeSystem: Σύστημα
+themeOff: Αρχικό
+layoutSectionTitle: Διάταξη
+modernLayout: Σύγχρονη διάταξη
+modernLayoutDescription: Σύγχρονες γραμματοσειρές, πιο ευάερα διαστήματα, χρωματιστά νήματα σχολίων και σήμα OP.
+density: Πυκνότητα
+densityComfortable: Άνετη
+densityCompact: Συμπαγής
+fontSize: Μέγεθος κειμένου
+keyboardSectionTitle: Συντομεύσεις πληκτρολογίου
+keyboardNav: Ενεργοποίηση συντομεύσεων πληκτρολογίου
+shortcutMove: Επιλογή επόμενης / προηγούμενης ιστορίας ή σχολίου
+shortcutOpen: Άνοιγμα ιστορίας ή σύμπτυξη σχολίου (Shift = νέα καρτέλα)
+shortcutComments: Άνοιγμα σχολίων (Shift = νέα καρτέλα)

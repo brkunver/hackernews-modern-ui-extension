@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: ലൈവ് പ്രിവ്യൂ
 openOptionsPage: കൂടുതൽ ഓപ്ഷനുകൾ
+themeSystem: സിസ്റ്റം
+themeOff: യഥാർത്ഥം
+layoutSectionTitle: ലേഔട്ട്
+modernLayout: ആധുനിക ലേഔട്ട്
+modernLayoutDescription: ആധുനിക ഫോണ്ടുകൾ, കൂടുതൽ ഇടം, നിറമുള്ള കമന്റ് ത്രെഡുകൾ, OP ബാഡ്ജ്.
+density: സാന്ദ്രത
+densityComfortable: സുഖപ്രദം
+densityCompact: ഒതുക്കമുള്ളത്
+fontSize: ടെക്സ്റ്റ് വലുപ്പം
+keyboardSectionTitle: കീബോർഡ് കുറുക്കുവഴികൾ
+keyboardNav: കീബോർഡ് കുറുക്കുവഴികൾ പ്രവർത്തനക്ഷമമാക്കുക
+shortcutMove: അടുത്ത / മുമ്പത്തെ വാർത്ത അല്ലെങ്കിൽ കമന്റ് തിരഞ്ഞെടുക്കുക
+shortcutOpen: വാർത്ത തുറക്കുക അല്ലെങ്കിൽ കമന്റ് ചുരുക്കുക (Shift = പുതിയ ടാബ്)
+shortcutComments: കമന്റുകൾ തുറക്കുക (Shift = പുതിയ ടാബ്)

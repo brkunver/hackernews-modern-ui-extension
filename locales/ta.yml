@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: நேரடி முன்னோட்டம்
 openOptionsPage: மேலும் விருப்பங்கள்
+themeSystem: சிஸ்டம்
+themeOff: அசல்
+layoutSectionTitle: தளவமைப்பு
+modernLayout: நவீன தளவமைப்பு
+modernLayoutDescription: நவீன எழுத்துருக்கள், தாராளமான இடைவெளி, வண்ண கருத்துத் தொடர்கள் மற்றும் OP பேட்ஜ்.
+density: அடர்த்தி
+densityComfortable: வசதியானது
+densityCompact: சுருக்கமானது
+fontSize: உரை அளவு
+keyboardSectionTitle: விசைப்பலகை குறுக்குவழிகள்
+keyboardNav: விசைப்பலகை குறுக்குவழிகளை இயக்கு
+shortcutMove: அடுத்த / முந்தைய செய்தி அல்லது கருத்தைத் தேர்ந்தெடு
+shortcutOpen: செய்தியைத் திற அல்லது கருத்தைச் சுருக்கு (Shift = புதிய தாவல்)
+shortcutComments: கருத்துகளைத் திற (Shift = புதிய தாவல்)

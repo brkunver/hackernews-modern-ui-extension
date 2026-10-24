@@ -10,3 +10,17 @@ themeGruvbox: Gruvbox
 themeSolarized: Solarized Light
 themePreviewTitle: Živý náhled
 openOptionsPage: Další možnosti
+themeSystem: Systém
+themeOff: Původní
+layoutSectionTitle: Rozložení
+modernLayout: Moderní rozložení
+modernLayoutDescription: Moderní písma, vzdušnější rozestupy, barevná vlákna komentářů a odznak OP.
+density: Hustota
+densityComfortable: Pohodlná
+densityCompact: Kompaktní
+fontSize: Velikost textu
+keyboardSectionTitle: Klávesové zkratky
+keyboardNav: Povolit klávesové zkratky
+shortcutMove: Vybrat další / předchozí článek nebo komentář
+shortcutOpen: Otevřít článek nebo sbalit komentář (Shift = nová karta)
+shortcutComments: Otevřít komentáře (Shift = nová karta)

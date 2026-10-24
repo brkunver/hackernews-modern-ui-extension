@@ -1,8 +1,17 @@
-import { For, Show, createMemo, createSignal, onMount } from "solid-js"
+import { For, Show, createMemo, createSignal, onCleanup, onMount } from "solid-js"
 import { i18n } from "#i18n"
 import { HnPreview } from "@/components/hn-preview"
-import { getStoredTheme, themeStorage } from "@/utils/storage"
-import { DEFAULT_THEME_ID, getTheme, themeList, type Theme, type ThemeId } from "@/utils/theme"
+import { getStoredThemeSelection, themeStorage } from "@/utils/storage"
+import {
+  DEFAULT_THEME_ID,
+  getThemeSelection,
+  originalColors,
+  resolveTheme,
+  themeOptions,
+  type ThemeColors,
+  type ThemeOption,
+  type ThemeSelection,
+} from "@/utils/theme"
 import "./theme-switcher.css"
 
 export interface ThemeSwitcherProps {
@@ -12,47 +21,62 @@ export interface ThemeSwitcherProps {
   showPreview?: boolean
 }
 
-export function ThemeSwitcher(props: ThemeSwitcherProps) {
-  const [selectedId, setSelectedId] = createSignal<ThemeId>(DEFAULT_THEME_ID)
+/** A miniature page in a theme's colors. The "System" card shows two side by side. */
+function ThemeCardPreview(props: { colors: ThemeColors }) {
+  return (
+    <span class="theme-card__preview" style={`background-color: ${props.colors.background}`}>
+      <span class="theme-card__bar" style={`background-color: ${props.colors.headerBg}`} />
+      <span class="theme-card__line" style={`background-color: ${props.colors.link}`} />
+      <span class="theme-card__line theme-card__line--short" style={`background-color: ${props.colors.subtext}`} />
+      <span class="theme-card__dot" style={`background-color: ${props.colors.commentLink}`} />
+    </span>
+  )
+}
 
-  onMount(async () => {
-    setSelectedId((await getStoredTheme()).id)
+export function ThemeSwitcher(props: ThemeSwitcherProps) {
+  const [selectedId, setSelectedId] = createSignal<ThemeSelection>(DEFAULT_THEME_ID)
+  const darkScheme = window.matchMedia("(prefers-color-scheme: dark)")
+  const [prefersDark, setPrefersDark] = createSignal(darkScheme.matches)
+  const onSchemeChange = () => setPrefersDark(darkScheme.matches)
+
+  onMount(() => {
+    darkScheme.addEventListener("change", onSchemeChange)
+    void getStoredThemeSelection().then(setSelectedId)
 
     // Keep every open surface in sync (popup and options page can both be open).
-    themeStorage.watch(newThemeId => {
-      setSelectedId(getTheme(newThemeId).id)
+    const unwatch = themeStorage.watch(newSelection => {
+      setSelectedId(getThemeSelection(newSelection))
+    })
+
+    onCleanup(() => {
+      unwatch()
+      darkScheme.removeEventListener("change", onSchemeChange)
     })
   })
 
-  const selected = createMemo(() => getTheme(selectedId()))
+  const previewColors = createMemo(() => resolveTheme(selectedId(), prefersDark())?.colors ?? originalColors)
 
-  async function select(theme: Theme) {
-    setSelectedId(theme.id)
-    await themeStorage.setValue(theme.id)
+  async function select(option: ThemeOption) {
+    setSelectedId(option.id)
+    await themeStorage.setValue(option.id)
   }
 
   return (
     <section class="theme-switcher">
       <div class={`theme-grid theme-grid--cols-${props.columns ?? 2}`}>
-        <For each={themeList}>
-          {theme => (
+        <For each={themeOptions}>
+          {option => (
             <button
               type="button"
               class="theme-card"
-              classList={{ "is-selected": selectedId() === theme.id }}
-              aria-pressed={selectedId() === theme.id}
-              onClick={() => void select(theme)}
+              classList={{ "is-selected": selectedId() === option.id }}
+              aria-pressed={selectedId() === option.id}
+              onClick={() => void select(option)}
             >
-              <span class="theme-card__preview" style={`background-color: ${theme.colors.background}`}>
-                <span class="theme-card__bar" style={`background-color: ${theme.colors.headerBg}`} />
-                <span class="theme-card__line" style={`background-color: ${theme.colors.link}`} />
-                <span
-                  class="theme-card__line theme-card__line--short"
-                  style={`background-color: ${theme.colors.subtext}`}
-                />
-                <span class="theme-card__dot" style={`background-color: ${theme.colors.commentLink}`} />
+              <span class="theme-card__swatches">
+                <For each={option.swatches}>{colors => <ThemeCardPreview colors={colors} />}</For>
               </span>
-              <span class="theme-card__name">{i18n.t(theme.nameKey)}</span>
+              <span class="theme-card__name">{i18n.t(option.nameKey)}</span>
             </button>
           )}
         </For>
@@ -61,7 +85,7 @@ export function ThemeSwitcher(props: ThemeSwitcherProps) {
       <Show when={props.showPreview}>
         <section class="theme-preview">
           <h2 class="theme-preview__title">{i18n.t("themePreviewTitle")}</h2>
-          <HnPreview colors={selected().colors} />
+          <HnPreview colors={previewColors()} />
         </section>
       </Show>
     </section>

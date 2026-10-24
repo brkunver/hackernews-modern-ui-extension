@@ -16,6 +16,11 @@ export function colorizeUsernames(lightness = 70) {
   })
 }
 
+/** Gives the usernames back their Hacker News color. */
+export function uncolorizeUsernames() {
+  document.querySelectorAll<HTMLElement>(".hnuser").forEach(user => user.style.removeProperty("color"))
+}
+
 export function colorizeCommentLinks() {
   const links = document.querySelectorAll<HTMLAnchorElement>(".subtext a")
 
