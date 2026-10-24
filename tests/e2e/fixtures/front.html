@@ -1,0 +1,76 @@
+<html lang="en" op="news">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hacker News</title>
+  </head>
+  <body>
+    <center>
+      <table id="hnmain" border="0" cellpadding="0" cellspacing="0" width="85%" bgcolor="#f6f6ef">
+        <tr>
+          <td bgcolor="#ff6600">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="padding: 2px">
+              <tr>
+                <td style="line-height: 12pt; height: 10px">
+                  <span class="pagetop"
+                    ><b class="hnname"><a href="news">Hacker News</a></b> <a href="newest">new</a> |
+                    <a href="front">past</a> | <a href="newcomments">comments</a></span
+                  >
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr id="pagespace" title="" style="height: 10px"></tr>
+        <tr id="bigbox">
+          <td>
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr class="athing submission" id="1001">
+                <td align="right" valign="top" class="title"><span class="rank">1.</span></td>
+                <td valign="top" class="votelinks"><center><a id="up_1001" href="#"><div class="votearrow" title="upvote"></div></a></center></td>
+                <td class="title">
+                  <span class="titleline"
+                    ><a href="https://example.com/first">First story</a
+                    ><span class="sitebit comhead"> (<a href="from?site=example.com"><span class="sitestr">example.com</span></a>)</span></span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2"></td>
+                <td class="subtext">
+                  <span class="subline"
+                    ><span class="score" id="score_1001">100 points</span> by <a href="user?id=alice" class="hnuser">alice</a>
+                    <span class="age" title="2026-10-23T10:00:00"><a href="item?id=1001">1 hour ago</a></span> |
+                    <a href="hide?id=1001">hide</a> | <a href="item?id=1001">42&nbsp;comments</a></span
+                  >
+                </td>
+              </tr>
+              <tr class="spacer" style="height: 5px"></tr>
+              <tr class="athing submission" id="1002">
+                <td align="right" valign="top" class="title"><span class="rank">2.</span></td>
+                <td valign="top" class="votelinks"><center><a id="up_1002" href="#"><div class="votearrow" title="upvote"></div></a></center></td>
+                <td class="title"><span class="titleline"><a href="https://example.com/second">Second story</a></span></td>
+              </tr>
+              <tr>
+                <td colspan="2"></td>
+                <td class="subtext">
+                  <span class="subline"
+                    ><span class="score" id="score_1002">50 points</span> by <a href="user?id=bob" class="hnuser">bob</a>
+                    <span class="age"><a href="item?id=1002">2 hours ago</a></span> | <a href="item?id=1002">discuss</a></span
+                  >
+                </td>
+              </tr>
+              <tr class="spacer" style="height: 5px"></tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <center>
+              <form method="get" action="//hn.algolia.com/">Search: <input type="text" name="q" size="17" /></form>
+            </center>
+          </td>
+        </tr>
+      </table>
+    </center>
+  </body>
+</html>
